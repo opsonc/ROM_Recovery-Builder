@@ -47,7 +47,7 @@ on:
         default: 'bacon'
 jobs:
   LineageOS:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-20.04-4cores
     permissions:
       contents: write
     steps:
