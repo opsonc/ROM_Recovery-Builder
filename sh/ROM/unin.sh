@@ -1,22 +1,10 @@
-sudo apt remove moby-buildx
-sudo apt remove moby-cli
-sudo apt remove moby-compose
-sudo apt remove moby-containerd
-sudo apt remove moby-engine
-sudo apt remove moby-runc
-sudo apt remove podman buildah
-sudo apt remove skopeo
-sudo apt remove containers-common
+sudo apt remove moby-buildx moby-cli moby-compose moby-containerd moby-engine moby-runc podman buildah skopeo containers-common adoptium-ca-certificates ant ant-optional libpq-dev mssql-tools
 sudo apt remove temurin-*-jdk
 sudo apt remove adoptopenjdk-*
-sudo apt remove adoptium-ca-certificates
 sudo apt remove openjdk-*
-sudo apt remove ant
-sudo apt remove ant-optional
 sudo apt remove postgresql-*
-sudo apt remove libpq-dev
 sudo apt remove libmysqlclient*
-sudo apt remove msodbcsql* mssql-tools
+sudo apt remove msodbcsql*
 sudo apt remove unixodbc-dev
 sudo apt remove mysql-client*
 sudo apt remove mysql-common
